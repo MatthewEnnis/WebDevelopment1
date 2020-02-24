@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Lab 4 Form</title>
+		<link rel="stylesheet" href="style.css">
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<h1>Lab4 Form</h1>
+		<form>
+			<p class="redtext">* required field</p>
+			<p>
+				Name: 
+				<input class="textbox" name="name" type="text" required="required" autofocus="autofocus" placeholder="Please enter your name here"/>
+				<span class="redtext"> *</span>
+			</p>
+			<p>
+				E-mail: 
+				<input class="textbox" name="email" type="email" required="required"/>
+				<span class="redtext"> *</span>
+			</p>
+			<p>
+				Website: <input class="textbox" name="website" type="url" />
+			</p>
+			<p>
+				Comment: <textarea></textarea>
+			</p>
+			<p>
+			Gender:
+				<input type="radio" name="gender" value="female" required="required"/>Female
+				<input type="radio" name="gender" value="male" required="required"/>Male
+				<span class="redtext"> *</span>
+			</p>
+			<p>
+				<input type="submit" />
+			</p>
+		</form>
+	</body>
+</html>

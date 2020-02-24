@@ -1,0 +1,40 @@
+body {
+	font-family: "Times New Roman";
+}
+
+figure {
+	display:inline;
+	left:100px;
+}
+
+img {
+	display:inline;
+	height:100px;
+	width:100px;
+}
+
+figcaption {
+	display:inline-block;
+	width:230px;
+	height:100px
+}
+
+.captionhead {
+	color:#6B9089;
+	font-weight: bold;
+}
+
+.blue {
+	color:#6B9089;
+}
+
+.related {
+	display:inline-block;
+	width:375px;
+	padding-top:15px;
+	padding-left:40px;
+}
+
+.headlines {
+	font-weight:bold;
+}
