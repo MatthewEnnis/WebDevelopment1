@@ -1,40 +1,56 @@
 body {
-	font-family: "Times New Roman";
+	font-family: "Arial";
 }
 
 figure {
-	display:inline;
-	left:100px;
-}
-
-img {
-	display:inline;
-	height:100px;
-	width:100px;
+	margin: 0px;
 }
 
 figcaption {
 	display:inline-block;
-	width:230px;
-	height:100px
+	width:210px;
+	height:100px;
+	line-height: 20px;
+	margin: auto;
+}
+
+.main {
+	width:345px;
+	padding:10px;
+}
+
+.articlepic {
+	display:inline;
+	height:100px;
+	margin: auto;
 }
 
 .captionhead {
-	color:#6B9089;
+	color:#53A0A3;
 	font-weight: bold;
+	margin:0px;
 }
 
-.blue {
-	color:#6B9089;
+a {
+	color:#53A0A3;
+	text-decoration: none;
 }
 
 .related {
-	display:inline-block;
-	width:375px;
-	padding-top:15px;
-	padding-left:40px;
+	height:100px;
+	padding:5px;
+	line-height:18px;
 }
 
 .headlines {
 	font-weight:bold;
+	padding-bottom:0px;
+}
+
+.viewmore:first-letter {
+	font-weight: bold;
+}
+
+#templatepic {
+	width: 700px;
 }

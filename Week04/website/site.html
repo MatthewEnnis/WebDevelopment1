@@ -1,48 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Lab 4 Form</title>
+		<title>Lab 4 Website</title>
 		<link rel="stylesheet" href="style.css">
 		<meta charset="UTF-8" />
 	</head>
 	<body>
-		<div>
-			<figure>
-				<img src="images/2.png" alt="David Wallace" />
-				<figcaption>
-					<p class="captionhead">Wallace returns to Munster squad</p>
-					David Wallace is one of nine internationals to return to...
-					<span class="blue">Read more</span>
-				</figcaption>
-			</figure>
-			<figure id="kanye">
-				<img src="images/1.png" alt="Kanye West" />
-				<figcaption>
-					<p class="captionhead">2008 American Music Awards: The Winners</p>
-					The 2008 American Music Awards took place in Los Angeles at the...
-					<span class="blue">Read more</span>
-				</figcaption>
-			</figure>
-		</div>
-		<div>
-			<div class="related">
-				<span class="headlines">Other headlines:</span><br />
-				<span class="blue">
-					- Keane desperate for consistency<br />
-					- Kazal camp wary of Grace rivals<br />
-					- Toner takes player gong<br /><br />
-					> View all stories
-				</span>
-			</div>
-			<div class="related">
-				<span class="headlines">Other headlines:</span><br />
-				<span class="blue">
-					- Orbital Reform for UK Festival<br />
-					- Fairport Convention for Whelan's<br />
-					- Deerhunter Plan Whelan's Gig<br /><br />
-					> View all stories
-				</span>
-			</div>
-		</div>
+		<table>
+			<tr>
+				<td class="main">
+				<figure>
+					<img src="images/2.png" alt="David Wallace" class="articlepic" />
+					<figcaption>
+						<p class="captionhead">Wallace returns to Munster squad</p>
+						David Wallace is one of nine internationals to return to...
+						<a href="?">Read more</a>
+					</figcaption>
+				</figure>
+				</td>
+				<td class="main">
+				<figure>
+					<img src="images/1.png" alt="Kanye West" class="articlepic"/>
+					<figcaption>
+						<p class="captionhead">2008 American Music Awards: The Winners</p>
+						The 2008 American Music Awards took place in Los Angeles at the...
+						<a href="?">Read more</span>
+					</figcaption>
+				</figure>
+				</td>
+			</tr>
+			<tr>
+				<td class="related">
+					<span class="headlines">Other headlines:</span><br /><br />
+					<a href="?">
+						- Keane desperate for consistency<br />
+						- Kazal camp wary of Grace rivals<br />
+						- Toner takes player gong<br />
+						<p class="viewmore">> View all stories</p>
+					</span>
+				</td>
+				<td class="related">
+					<span class="headlines">Other headlines:</span><br /><br />
+					<a href="?">
+						- Orbital Reform for UK Festival<br />
+						- Fairport Convention for Whelan's<br />
+						- Deerhunter Plan Whelan's Gig<br />
+						<p class="viewmore">> View all stories</p>
+					</span>
+				</td>
+			</tr>
+		</table>
 	</body>
 </html>
