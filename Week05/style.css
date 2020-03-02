@@ -1,0 +1,73 @@
+body {
+	font-family: Arial;
+}
+
+a {
+	color:#73B7C6;
+}
+
+
+h3 {
+	padding:0px;
+	margin:0px;
+}
+
+h4 {
+	padding-left:3px;
+}
+
+h5 {
+	margin:0px;
+	font-size:16px;
+	color:#307082;
+}
+
+.articletext {
+	width:330px;
+	height:100px;
+	font-size:12px;
+}
+
+.articleimage {
+	width:100px;
+}
+
+#retro {
+	color:white;
+	background-color:#307082;
+	font-size:9px;
+}
+
+#line {
+	border-top:1px solid #307082;
+}
+
+#maintable {
+	padding-left:25px;
+}
+
+#leftpanel {
+	width:140px;
+	height:400px;
+}
+
+#mainarea {
+
+	height:400px;
+	width:500px;
+	background-color:white;
+}
+
+#recruitmenttext {
+	font-size:12px;
+	padding-left:5px;
+}
+
+#joinourteam {
+	padding-left:5px;
+}
+
+#headingarea {
+	height:50px;
+	padding:0px;
+}
