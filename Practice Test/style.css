@@ -1,0 +1,74 @@
+body {
+	font-family:Arial;
+	font-size:11px;
+	width:750px;
+}
+
+form {
+	padding-top:52px;
+}
+
+#inputs {
+	display:grid;
+	grid-template-columns: 25% 68%;
+}
+
+#inputs > span {
+	padding-top:3px;
+}
+
+input {
+	margin-bottom:5px;
+}
+
+#loginoptions {
+	padding-top:12px;
+	display:grid;
+	grid-template-columns: 40% 40%;
+	grid-column-gap:2px;
+	grid-row-gap:9px;
+}
+
+#submitarea {
+	padding-top:12px;
+	display:grid;
+	grid-template-columns: 12% 45% 10%;
+	align-items:center;
+}
+
+#submitarea > span {
+	padding-bottom:3px;
+}
+
+#help {
+	padding-top:55px;
+	display:grid;
+	grid-template-columns: 8% 80%;
+	grid-row-gap:4px;
+}
+
+hr {
+	margin-top:16px;
+	margin-left:15px;
+	border-top:1px solid royalblue;
+}
+
+#maincontent {
+	display:grid;
+	grid-template-columns: 65% 30%;
+	grid-column-gap:25px;
+}
+
+#links {
+	padding-top:22px;
+	display:grid;
+	grid-template-columns: 8% 50% 8% 40%;
+}
+
+#blocks {
+	padding-left:15px;
+	display:grid;
+	grid-template-columns: 50% 50%;
+	grid-column-gap:7px;
+	grid-row-gap:14px;
+}
