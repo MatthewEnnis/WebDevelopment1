@@ -1,0 +1,151 @@
+body {
+	font-family:Arial;
+	font-size:13px;
+	width:970px;
+}
+
+h1 {
+	color:#1B4670;
+	font-size:21px;
+}
+
+h2 {
+	color:#1B4670;
+	font-size:16px;
+	width:200px;
+}
+
+h3 {
+	font-size:18px;
+	margin:0px;
+	border-bottom: 1px solid lightgrey;
+	padding-bottom:3px;
+}
+
+h4 {
+	color:#1B4670;
+	font-size:14px;
+	margin:0px;
+	padding-top:10px;
+	margin-bottom:10px;
+}
+
+b {
+	font-size:15px;
+}
+
+a {
+	text-decoration: none;
+}
+
+input {
+	width:148px;
+	margin-top:7px;
+}
+
+.newsimage {
+	float:right;
+	padding-top:15px
+}
+
+.time {
+	color:#BC7227;
+}
+
+#main {
+	height:610px;
+	width:970px;
+	display:grid;
+	grid-template-rows: 7% 38% 6% 49%;
+}
+
+#maincontent {
+	display:grid;
+	grid-template-columns: 68% 32%;
+}
+
+#leftarea {
+	display:grid;
+	grid-template-rows: 11% 89%;
+}
+
+#rightarea {
+	margin-left:5px;
+}
+
+#buttons {
+	display:grid;
+	grid-template-columns:17% 20%;
+	border-bottom:1px dotted lightgrey;
+}
+
+#content {
+	display:grid;
+	grid-template-columns: 50% 50%;
+}
+
+#propertyvalues {
+	padding:10px;
+}
+
+#otherstories {
+	display:grid;
+	grid-template-rows: 48% 48%;
+}
+
+#date {
+	color:#BC7227;
+	border-bottom:1px solid lightgrey;
+	margin-bottom:9px;
+	padding:5px;
+	padding-left:12px;
+	font-size:11px;
+}
+
+#lateststories {
+	background-color:#003F72;
+	width:107px;
+	height:31px;
+	color:white;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 31px; 
+}
+
+#rtenewsnow {
+	background-color:#6D6D6D;
+	width:135px;
+	height:31px;
+	color:white;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 31px; 
+}
+
+#highlights {
+	border: 1px solid lightgrey;
+	border-top: 5px solid lightgrey;
+	height:145px;
+	padding:10px;
+}
+
+#picoftheday {
+	float:right;
+}
+
+#latest {
+	border: 1px solid lightgrey;
+	margin-top:10px;
+}
+
+#getallthelatest {
+	display:block;
+	margin:auto;
+}
+
+#top {
+	background-color:#4A4A4A;
+	height:35px;
+	display:grid;
+	grid-template-columns: 83% 17%;
+}
